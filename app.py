@@ -162,7 +162,7 @@ st.write('\n')
 
 
 # Create a list of years
-years = np.arange(1989, 2024)
+years = [2005,2010,2015,2020,2025]
 
 # Create a list of Rob's growth
 rob_growth = [1, 10, 100, 1000, 10000]
