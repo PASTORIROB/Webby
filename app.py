@@ -162,10 +162,10 @@ st.write('\n')
 
 
 # Create a list of years
-years = [2005,2010,2015,2020,2025]
+years = ['2005','2010','2015','2020','2025']
 
 # Create a list of Rob's growth
-rob_growth = [1, 10, 100, 1000, 10000]
+rob_growth = [100, 1000, 10000, 10000, 100000]
 
 # Create a list of The Competition's growth
 competition_growth = [1, 2, 3, 4, 5]
