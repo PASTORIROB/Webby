@@ -8,7 +8,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "testrp.jpg"
-
+#grad_pic = current_dir / "assets" / "grad.jpg"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Roberts Pastori Digital Resume"
@@ -29,8 +29,8 @@ SOCIAL_MEDIA = {
 
 PROJECTS = {
     "🏆 FINRA Series 7": "https://brokercheck.finra.org/individual/summary/6603334",
-    "👨‍🎓 MBA from University of Central Florida": "UCF.EDU",
-    "👨‍🎓 Finance BS from University of Central Florida": "UCF.EDU",
+    "👨‍🎓 MBA from University of Central Florida": "https://UCF.EDU",
+    "👨‍🎓 Finance BS from University of Central Florida": "https://UCF.EDU",
    
     
 }
