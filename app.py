@@ -153,3 +153,13 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+
+x = [1, 2, 3, 4, 5]
+y = [10, 15, 13, 17, 20]
+
+# Create the Matplotlib chart
+plt.plot(x, y)
+plt.xlabel('Hard Work')
+plt.ylabel('Reward')
+plt.title('Rob's Career Trajectory')
+st.pyplot(plt)
