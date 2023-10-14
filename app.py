@@ -161,5 +161,5 @@ y = [10, 15, 13, 17, 20]
 plt.plot(x, y)
 plt.xlabel('Hard Work')
 plt.ylabel('Reward')
-plt.title('Rob's Career Trajectory')
+plt.title('Robs Career Trajectory')
 st.pyplot(plt)
