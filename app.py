@@ -1,7 +1,7 @@
 from pathlib import Path
 import streamlit as st
 from PIL import Image
-
+import matplotlib.pyplot as plt
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
