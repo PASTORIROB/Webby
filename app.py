@@ -154,11 +154,33 @@ st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 
-x = [1, 2, 3, 4, 5]
-y = [10, 15, 13, 17, 20]
+
+st.write('\n')
+st.write('\n')
+# Coordinates for the letter 'R'
+x_r = [0, 0.4, 0.7, 1, 1, 0.7, 0.6, 1]
+y_r = [1, 0.7, 0.5, 0.4, 0, 0.3, 0.5, 0]
+
+# Coordinates for the letter 'O'
+x_o = [1.3, 1.5, 1.5, 1.3]
+y_o = [1, 0.7, 0.3, 0]
+
+# Coordinates for the letter 'B'
+x_b = [1.7, 1.7, 1.9, 2, 1.9, 1.7, 1.7, 1.9, 2, 2]
+y_b = [1, 0, 0, 0.2, 0.4, 0.6, 0.8, 1, 1, 1]
 
 # Create the Matplotlib chart
-plt.plot(x, y)
+plt.plot(x_r, y_r, marker='o', linestyle='-')
+plt.plot(x_o, y_o, marker='o', linestyle='-')
+plt.plot(x_b, y_b, marker='o', linestyle='-')
+
+# Customize the chart if needed
+plt.axis('off')  # Turn off the axis
+#x = [1, 2, 3, 4, 5]
+#y = [10, 15, 13, 17, 20]
+
+# Create the Matplotlib chart
+#plt.plot(x, y)
 plt.xlabel('Hard Work')
 plt.ylabel('Reward')
 plt.title('Robs Career Trajectory')
