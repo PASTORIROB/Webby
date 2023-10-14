@@ -15,29 +15,23 @@ PAGE_TITLE = "Roberts Pastori Digital Resume"
 PAGE_ICON = ":wave:"
 NAME = "Robert Pastori"
 DESCRIPTION = """
-Senior Analyst, assisting institutional trading operations by creating and maintaining automated reports.
+Senior Analyst, assisting institutional trading operations by creating and maintaining automated reports/databases.
 """
 EMAIL = "PastoriRob@gmail.com"
 SOCIAL_MEDIA = {
    
-    "LinkedIn": "https://www.linkedin.com/in/rpastori1989/",
-    "GitHub": "https://github.com/PASTORIROB",
+    "🛠️ LinkedIn": "https://www.linkedin.com/in/rpastori1989/",
+    "👨‍💻 GitHub": "https://github.com/PASTORIROB",   
+   
     
 }
-# "YouTube": "https://youtube.com/c/codingisfun",Twitter": "https://twitter.com",
-#PROJECTS = {
-#    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-#    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-#    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-#    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
-#}"🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-#    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-#    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/"
+
 
 PROJECTS = {
     "🏆 FINRA Series 7": "https://brokercheck.finra.org/individual/summary/6603334",
-    "🏆 MBA from University of Central Florida": "UCF.EDU",
-    "🏆 Finance BS from University of Central Florida": "UCF.EDU",
+    "👨‍🎓 MBA from University of Central Florida": "UCF.EDU",
+    "👨‍🎓 Finance BS from University of Central Florida": "UCF.EDU",
+   
     
 }
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -80,9 +74,9 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ 11 Years of expereince in Trading Operations and Finance
-- ✔️ Strong hands on coding experience with Python and VBA using Excel and Access
-- ✔️ Good understanding of statistical principles and their respective applications
+- ✔️ 11 Years of experience in Trading Operations and Finance
+- ✔️ Strong hands-on coding experience with Python and VBA using MS Excel/Access
+- ✔️ Great understanding of data structures and their respective applications
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
 """
 )
@@ -94,8 +88,8 @@ st.subheader("Hard Skills")
 st.write(
     """
 - 👩‍💻 Programming: Python , SQL, VBA, Typescript
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 🗄️ Databases: Oracle, MySQL, Access
+- 📊 Data Visualization: PowerBi, MS Excel, Plotly
+- 🗄️ Databases: Oracle, MySQL, MS Access, SQLite
 """
 )
 #- 📚 Modeling: Logistic regression, linear regression, decition trees
@@ -111,7 +105,6 @@ st.write("03/2022 - Present")
 st.write(
     """
 - ►  Developed a daily automation that verified incoming vendor data by reconciling internal and external trade data to ensure the vendor correctly reported fees, saving the firm hundreds of thousands of dollars over time.
-
 - ►  I serve as the in-house MS Excel expert for all of Pershing Trading Services, capable of building macros or creating custom pivot tables to effectively present metrics from complex financial instruments.
 - ►  Used Python scripting to monitor daily automated reports on a loop that notified the team if something went wrong with any report.
 - ►  I effectively communicated with non-tech-savvy stakeholders by using flowcharts and diagrams, ensuring a more efficient and error-free product development process.
