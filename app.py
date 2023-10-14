@@ -2,7 +2,7 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 import matplotlib.pyplot as plt
-
+import numpy as np
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
@@ -159,31 +159,37 @@ st.write('\n')
 st.write('\n')
 
 
-# Create a list of xy coordinates for each letter
-ROB = [
-    (0, 0), (1, 0), (2, 0), (3, 0), (4, 0),
-    (0, 1), (1, 1), (2, 1), (3, 1), (4, 1),
-    (0, 2), (1, 2), (2, 2), (3, 2), (4, 2),
-    (0, 3), (1, 3), (2, 3), (3, 3), (4, 3),
-]
+
+
+# Create a list of years
+years = np.arange(1989, 2024)
+
+# Create a list of Rob's growth
+rob_growth = [1, 10, 100, 1000, 10000]
+
+# Create a list of The Competition's growth
+competition_growth = [1, 2, 3, 4, 5]
 
 # Create a figure and plot the xy coordinates
 fig, ax = plt.subplots()
-ax.plot(ROB[:, 0], ROB[:, 1], 'o-', markersize=10, color='red')
+
+# Plot the Rob line
+ax.plot(years, rob_growth, label='Rob')
+
+# Plot The Competition line
+ax.plot(years, competition_growth, label='The Competition')
 
 # Set the axis labels and title
-ax.set_xlabel('X')
-ax.set_ylabel('Y')
-ax.set_title('ROB')
+ax.set_xlabel('Time')
+ax.set_ylabel('Growth')
+ax.set_title('Rob vs. The Competition')
 
-# Set the axis limits
-ax.set_xlim(-1, 5)
-ax.set_ylim(-1, 4)
+# Set the grid
+ax.grid(True)
 
-# Turn off the grid
-ax.grid(False)
+# Add a legend
+ax.legend()
 
 # Display the plot in Streamlit
 st.pyplot(fig)
-
 
