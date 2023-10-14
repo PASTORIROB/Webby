@@ -124,12 +124,9 @@ st.write("🚧", " Operations Analyst | Cowen Inc.")
 st.write("04/2017 - 03/2022")
 st.write(
     """
-- ► Programmed and automated a daily dashboard for the Managing Director and Chief Operating Officer, giving a clear
-view of breaks across the firm and how they are resolved.
-- ► Managed a global team of analysts responsible for reconciling hundreds of accounts, directly accountable for flaws if
-found by auditors.
-- ► Routinely trusted to use critical thinking while programming Excel VBA code, transforming data into a loadable
-format and eliminating errors for teams, reducing risks.
+- ► Programmed and automated a daily dashboard for the Managing Director and Chief Operating Officer, giving a clear view of breaks across the firm and how they are resolved.
+- ► Managed a global team of analysts responsible for reconciling hundreds of accounts, directly accountable for flaws if found by auditors.
+- ► Routinely trusted to use critical thinking while programming Excel VBA code, transforming data into a loadable format and eliminating errors for teams, reducing risks.
 - ►Led quarterly and yearly presentations of our reporting procedures and results to external and internal auditors.
 
 """
@@ -141,9 +138,9 @@ st.write("🚧", "**Operations Associate | Convergex Execution Services**")
 st.write("01/2018 - 02/2022")
 st.write(
     """
-- ► Reconciled cash and stock accounts in over 50 markets with different currencies, unwindings complex trades to balance the books
-- ► Wrote simple macros to improve productivity
-- ► Compiled, stored, and audited large amounts of trading data
+- ► Reconciled cash and stock accounts in over 50 markets with different currencies, unwindings complex trades to balance the books.
+- ► Wrote simple macros to improve productivity.
+- ► Compiled, stored, and audited large amounts of trading data.
 """
 )
 
