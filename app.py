@@ -100,7 +100,7 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Business Technical Liaison Senior Analyst | BNY Mellon – Pershing**")
+st.write("🚧", "**Business Technical Liaison - Senior Analyst | BNY Mellon – Pershing**")
 st.write("03/2022 - Present")
 st.write(
     """
@@ -112,7 +112,7 @@ st.write(
 - ►  Developed UiPath Studio Pro robots that have yielded hundreds of hours of time savings for the firm and nearly eliminated the risk of data entry errors.
 - ►  Constructed business metrics and visualisations from raw trade data pulled from multiple Oracle databases.
 - ►  Collaborated with stakeholders to create solutions to time sensitive regulatory and compliance issues. 
-- ►  Created Power Automate flows that automated tedious tasks using TypeScript code within M365 Excel scripts.
+- ►  Created MS Power Automate flows that eliminated tedious tasks by writing TypeScript code within M365 Excel scripts.
 
 """
 )
@@ -138,9 +138,9 @@ st.write("🚧", "**Operations Associate | Convergex Execution Services**")
 st.write("01/2018 - 02/2022")
 st.write(
     """
-- ► Reconciled cash and stock accounts in over 50 markets with different currencies, unwindings complex trades to balance the books.
+- ► Reconciled cash and stock accounts in over 50 markets with different currencies, unwinding complex trades to balance the firms books.
 - ► Wrote simple macros to improve productivity.
-- ► Compiled, stored, and audited large amounts of trading data.
+- ► Compiled, stored, and audited massive amounts of trading data.
 """
 )
 
