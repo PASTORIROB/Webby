@@ -165,7 +165,7 @@ st.write('\n')
 years = ['2005','2010','2015','2020','2025']
 
 # Create a list of Rob's growth
-rob_growth = [100, 1000, 10000, 10000, 100000]
+rob_growth = [100, 1000, 20000, 40000, 100000]
 
 # Create a list of The Competition's growth
 competition_growth = [1, 2, 3, 4, 5]
@@ -180,9 +180,9 @@ ax.plot(years, rob_growth, label='Rob')
 ax.plot(years, competition_growth, label='The Competition')
 
 # Set the axis labels and title
-ax.set_xlabel('Time')
-ax.set_ylabel('Growth')
-ax.set_title('Rob vs. The Competition')
+ax.set_xlabel('Year')
+ax.set_ylabel('Professional Value')
+ax.set_title('Continual Growth')
 
 # Set the grid
 ax.grid(True)
